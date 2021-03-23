@@ -16,7 +16,7 @@ Use the buttons below to know more about me.""",
             [
                 [
                     InlineKeyboardButton(
-                        "⚒ Source code", url="https://t.me/CallsMusic"
+                        "➕Add Me To Your Group➕", url="http://t.me/GroupsMusicBot?startgroup=start"
                     )
                 ],
                 [
