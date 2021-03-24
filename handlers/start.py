@@ -15,17 +15,15 @@ Use the buttons below to know more about me.""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton(
-                        "➕Add Me To Your Group➕", url="http://t.me/GroupsMusicBot?startgroup=start"
-                    )
+                    InlineKeyboardButton('➕Add Me to a Group➕', url="http://t.me/GroupsMusicBot?startgroup=start"),
+                ]
+                [
+                    InlineKeyboardButton('🎛️ Commands', callback_data="Command"),
+                    InlineKeyboardButton('❤️ Credits', url='https://t.me/NeoNBotZ'),
                 ],
                 [
-                    InlineKeyboardButton(
-                        "💬 Group", url="https://t.me/VKP_BOTS"
-                    ),
-                    InlineKeyboardButton(
-                        "Channel 🔈", url="https://t.me/VKPROJECTS"
-                    )
+                    InlineKeyboardButton('👥 Official Group', url='https://t.me/NeoNChatZ'),
+                    InlineKeyboardButton('📢 Official Channel', url='https://t.me/NeoNBotZ'),
                 ]
             ]
         )
